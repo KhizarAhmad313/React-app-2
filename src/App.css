@@ -1,0 +1,41 @@
+.cards {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  background-color: #adefd1;
+  border-radius: 20px;
+  text-align: center;
+  color: #00203f;
+  padding: 10px;
+  width: 300px;
+  margin: 20px;
+}
+
+img {
+  border-radius: 50%;
+  margin-top: 5px;
+  height: 75px;
+  width: 75px;
+}
+
+p {
+  text-align: justify;
+}
+
+button {
+  background-image: linear-gradient(to right, #1a2980 0%, #26d0ce 100%);
+  font-family: "Righteous", cursive;
+  border-radius: 25px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: black;
+  width: 200px;
+  height: 50px;
+  padding: 5px;
+  border: none;
+}
+
+button:hover {
+  text-decoration: none;
+  transition: 0.75s;
+  color: #adefd1;
+}
